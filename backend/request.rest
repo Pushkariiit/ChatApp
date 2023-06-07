@@ -1,0 +1,4 @@
+post http://localhost:5000/authenticate
+Content-Type: application/json
+
+{"username":"Pushkar"}
