@@ -2,12 +2,12 @@ import { PrettyChatWindow } from "react-chat-engine-pretty";
 
 const ChatsPage = (props) => {
   return (
-    <div style={{height:"100vh"}}>
+    <div style={{ height: "100vh" }}>
       <PrettyChatWindow
-        projectId="79d91551-ad90-4789-b541-0f59aee81202"
+        projectId="a5f35381-6f9e-4b96-a646-ff31c5eabb07"
         username={props.user.username}
         secret={props.user.secret}
-        style={{height:"100%"}}
+        style={{ height: "100%" }}
       />
     </div>
   );
